@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agrinho 2026</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#e8f5e9;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+
+section{
+    max-width:900px;
+    margin:20px auto;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#2e7d32;
+}
+
+.card{
+    background:#f1f8e9;
+    padding:15px;
+    margin:10px 0;
+    border-radius:10px;
+}
+
+button{
+    background:#43a047;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#2e7d32;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#2e7d32;
+    color:white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌱 Agrinho 2026 🌱</h1>
+    <h2>Agro Forte, Futuro Sustentável</h2>
+</header>
+
+<section>
+    <h2>Sobre o Projeto</h2>
+
+    <p>
+        A natureza é fundamental para a produção de alimentos.
+        Precisamos cuidar da água, do solo e das plantas para
+        garantir um futuro sustentável.
+    </p>
+
+    <div class="card">
+        🌳 Preservar as árvores ajuda a proteger o meio ambiente.
+    </div>
+
+    <div class="card">
+        💧 Economizar água é importante para todos.
+    </div>
+
+    <div class="card">
+        🌽 A agricultura sustentável produz alimentos sem destruir a natureza.
+    </div>
+
+    <button onclick="mensagem()">
+        Clique para aprender mais
+    </button>
+
+    <p id="resultado"></p>
+</section>
+
+<footer>
+    Pequenas ações fazem uma grande diferença! 🌿
+</footer>
+
+<script>
+function mensagem(){
+    document.getElementById("resultado").innerHTML =
+    "🌎 Cuidar da natureza hoje garante um futuro melhor para todos!";
+}
+</script>
+
+</body>
+</html>
